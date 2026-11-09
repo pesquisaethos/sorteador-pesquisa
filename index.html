@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa acadêmica</title>
+</head>
+<body>
+    <p>Redirecionando para o formulário da pesquisa...</p>
+
+    <script>
+        const formularios = [
+            "https://docs.google.com/forms/d/e/1FAIpQLSf7heIhsCCBe1odbMTF_VZXYA4eN_Zp3lfs6kPO5cxWRT_pkQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSeOE7zC9X3Va4wXdieusQuFzbuBNm1P5Wzt3LfFug-whLwZSQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLScZVCItCRFtw60sehqqypb9js7I-W4-7UsbxJuBNNWgqsJRaQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdSg6rBqU-kAxaHVk1DP5VLh0n_40mLqQVjhaR-LXHpXxGeJg/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfsnRkZS1ZoMeVDsQeuRjyhcEmknH3NhvPmUg-K1HKCQmPcqA/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdjWqx94uLA37sns7cgacYbl4M6I3JcIWNNFS5tVey7tzcF-g/viewform?usp=header"
+        ];
+
+        const indice = Math.floor(Math.random() * formularios.length);
+
+        window.location.replace(formularios[indice]);
+    </script>
+</body>
+</html>
